@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TCSDAL"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "TCSDAL数据层."
   s.description      = <<-DESC
                         TCSDAL数据层:2015-11-14
