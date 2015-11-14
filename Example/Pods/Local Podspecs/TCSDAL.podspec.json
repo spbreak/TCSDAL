@@ -1,0 +1,30 @@
+{
+  "name": "TCSDAL",
+  "version": "0.1.0",
+  "summary": "TCSDAL数据层.",
+  "description": "TCSDAL数据层:2015-11-14",
+  "homepage": "https://github.com/spbreak/TCSDAL",
+  "license": "MIT",
+  "authors": {
+    "spbreak": "527108411@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/spbreak/TCSDAL.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TCSDAL": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "FMDB": [
+      "~>2.5"
+    ]
+  }
+}
