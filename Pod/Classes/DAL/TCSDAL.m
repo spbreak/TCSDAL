@@ -99,13 +99,46 @@ static FMDatabase *db;
     return [NSArray arrayWithArray:arrM];
 }
 
-+(void)test{
-//    NSString *strPath=[self getFilePathForDataBase:@"teacherofcomputesurname.sqlite"];
-//    [self dataBaseForPath:strPath];
-//    BOOL isOpen=[db open];
-//    NSLog(@"bbb%@",isOpen?@"成功":@"失败");
-//    [db setShouldCacheStatements:YES];
-//    BOOL isTable=[db tableExists:@"name"];
-//    NSLog(@"打开表%@",isTable?@"成功":@"失败");
+/**
+ *  获得单行数据,以NSDictionary形式返回
+ *
+ *  @param table    表名
+ *  @param where    筛选SQL语句
+ *  @param arrField 列名
+ *
+ *  @return 获得单行数据
+ */
++(NSDictionary *)getSingleOfTable:(NSString *)table withWhere:(NSString *)where withArrField:(NSArray *)arrField{
+    if (!db) {
+        NSString *strPath=[self getFilePathForDataBase:kDBName];
+        [self dataBaseForPath:strPath];
+    }
+    if (![db open]) {
+        NSLog(@"数据库打开失败");
+        return nil;
+    }
+    [db setShouldCacheStatements:YES];
+    if (![db tableExists:table]) {
+        NSLog(@"数据库不存在 %@ 表",table);
+        return nil;
+    }
+    // 定义一个可变数组,用来存放查询的结果,返回给调用者
+    NSMutableDictionary *dictM=[[NSMutableDictionary alloc]init];
+    // 定义一个结果集,存放查询的数据
+    NSString *strField=[arrField componentsJoinedByString:@","];
+    FMResultSet *rs=[db executeQuery:[NSString stringWithFormat:@"select %@ from %@ where %@",strField,table,where]];
+    // 判断结果集中是否有数据,如果有则取出数据
+    while ([rs next]) {
+        for (NSString *temp in arrField) {
+            NSString *str=[rs stringForColumn:temp];
+            if (str==nil) {
+                str=@"";
+            }
+            [dictM setObject:str forKey:temp];
+        }
+        break;
+    }
+    
+    return [NSDictionary dictionaryWithDictionary:dictM];
 }
 @end

@@ -22,7 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		928D416CD0B3EF919E783347 /* Pods_TCSDAL_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21330D78B59CEF650BF3E8B6 /* Pods_TCSDAL_Tests.framework */; };
-		F0A90F4D1BF825A30004829D /* SQLiteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F07ED1721BF6E77E00BEE3A0 /* SQLiteSpec.m */; };
+		F0E5EE1A1BF8409C005975FE /* SelectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F07ED16D1BF6E67500BEE3A0 /* SelectSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -402,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A90F4D1BF825A30004829D /* SQLiteSpec.m in Sources */,
+				F0E5EE1A1BF8409C005975FE /* SelectSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,14 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [TCSDAL test];
-//    TCSDAL.framework/TCSDAL.bundle/teacherofcomputesurname.sqlite
-    NSString *str=[[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:@"Frameworks/TCSDAL.framework/TCSDAL.bundle"];
-    NSBundle *bundle=[NSBundle bundleWithPath:str];
-    NSString *strPath=[[bundle resourcePath]stringByAppendingPathComponent:@"teacherofcomputesurname.sqlite"];
-    NSLog(@"path:%@",str);
-    NSLog(@"strPath:%@",strPath);
-    NSLog(@"%@",[[NSBundle mainBundle]resourcePath]);
+//    NSString *str=[[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:@"Frameworks/TCSDAL.framework/TCSDAL.bundle"];
+//    NSBundle *bundle=[NSBundle bundleWithPath:str];
+//    NSString *strPath=[[bundle resourcePath]stringByAppendingPathComponent:@"teacherofcomputesurname.sqlite"];
+//    NSLog(@"path:%@",str);
+//    NSLog(@"strPath:%@",strPath);
+//    NSLog(@"%@",[[NSBundle mainBundle]resourcePath]);
 }
 
 - (void)didReceiveMemoryWarning

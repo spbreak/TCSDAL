@@ -51,7 +51,14 @@
  *  @return 符合条件的表数据(NSArray<NSDictionary *>)
  */
 +(NSArray *)getManyOfTable:(NSString *)table withWhere:(NSString *)where withArrField:(NSArray *)arrField;
-
-+(void)test;
-
+/**
+ *  获得单行数据,以NSDictionary形式返回
+ *
+ *  @param table    表名
+ *  @param where    筛选SQL语句
+ *  @param arrField 列名
+ *
+ *  @return 获得单行数据
+ */
++(NSDictionary *)getSingleOfTable:(NSString *)table withWhere:(NSString *)where withArrField:(NSArray *)arrField;
 @end
