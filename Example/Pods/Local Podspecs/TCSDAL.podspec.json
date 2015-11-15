@@ -1,8 +1,8 @@
 {
   "name": "TCSDAL",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "TCSDAL数据层.",
-  "description": "TCSDAL数据层:2015-11-14",
+  "description": "完成了一个多行数据查询功能",
   "homepage": "https://github.com/spbreak/TCSDAL",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/spbreak/TCSDAL.git",
-    "tag": "0.1.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "7.0"
@@ -19,7 +19,7 @@
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "TCSDAL": [
-      "Pod/Assets/*.png"
+      "Pod/Assets/*"
     ]
   },
   "dependencies": {

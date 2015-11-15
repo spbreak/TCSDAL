@@ -50,6 +50,7 @@
 		3124C0016AB3962C96DA7FAA7C5A1EFC /* KWSharedExample.h in Headers */ = {isa = PBXBuildFile; fileRef = B2966A1C1685C93319CE950D8A99FC2D /* KWSharedExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34134763540387B131CCA16C4AA28954 /* NSNumber+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CA19DB9EC7C6EC6357B4A771C118D1F2 /* NSNumber+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34563AECF217AC24E7B4576938B617AE /* Kiwi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9FB7F8B689DF9CAE7E8384F96F17AA /* Kiwi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E92BFEB8BDF6F3F1551FCCE6F40BFE /* TCSDAL.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC9F8437BF1D1BCB5E5A48370CBCF31 /* TCSDAL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37A4F450AE996BCE567341B5BDA65916 /* KWBeZeroMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 380B4EA294780A8B28061103B95055BD /* KWBeZeroMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AC3DD23771C305AFAA9AA9CBAB94692 /* KWContainMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C08FE74133577F348031BD52A254B5A5 /* KWContainMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3B72913B972E03F487322E7A56F9BDD2 /* KWMessageSpying.h in Headers */ = {isa = PBXBuildFile; fileRef = D34437AAE40571C61A566AFAC8DCC072 /* KWMessageSpying.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -113,11 +114,11 @@
 		7D22BD9803447DB1A15244E8C4E85B35 /* NSObject+KiwiStubAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5B551976D3E9A2F716A57780337D06 /* NSObject+KiwiStubAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E1AA75413173A84694B798611487CFB /* KWInequalityMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA7965EC9493843B04354C00BFEDE47 /* KWInequalityMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F615B90BD7727FFAA44359B2E1FFEA2 /* KWCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 964CF4CD6442C3053EF228FA39BC8F60 /* KWCallSite.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83314DC09A1C10D386518A927EB9BFD4 /* teacherofcomputesurname.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 14EFAD1D2AB3A2B1FEC1271E56CF3243 /* teacherofcomputesurname.sqlite */; };
 		833478B38DC2F60E227D743B431FF68A /* KWEqualMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF384AE9DD86D8AA61432D94A79EC7 /* KWEqualMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8362585291632C308528FECF16BA2ED9 /* KWMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = F58178B061900B711C3A50A0C14EC79A /* KWMatchers.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		850149A7EFCE6BC3B3CD5492C88080A7 /* KWObjCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9A051B115A239269441372D16F686 /* KWObjCUtilities.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		85416561B37EB0B4FA44A91FFA9C832E /* KWConformToProtocolMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0928A38029B951E6DAD7BC147F8CE9A6 /* KWConformToProtocolMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		858B49D0C1DAA3A5EDD025C064DFF27B /* TCSDAL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA9236C4CC61102AABE02F9B4463DB0 /* TCSDAL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8697D6DCF4FF6F5EE189DDC5253399BF /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0124ACFB4DCD4DD16AC75ED0AF17F2D9 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87373FB0446DE91F86803B1DE9B4DAB5 /* KWBeforeEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B554F5457B0EBA07FCE355DF31914F /* KWBeforeEachNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		87FCBC83DCFC8B55C73651EC027B7D95 /* KWAllTestsSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEB054B987033FF3A75F975A2ECDD7 /* KWAllTestsSuite.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -150,7 +151,6 @@
 		A3F8EC9FB8D72822E083EDF182EFE1D6 /* Kiwi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBF2BD1CAAB69E105BA5129A5F3DF6 /* Kiwi-dummy.m */; };
 		A4687B9386C650820709837DC512154E /* KWExample.m in Sources */ = {isa = PBXBuildFile; fileRef = F09A89B454BE52FA15990A8043F3EC33 /* KWExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A4CA6BA6BEF2E7F1919ED6AB1D32F805 /* KWRegisterMatchersNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFB177B52A48AB3064E0B5B18F7B53 /* KWRegisterMatchersNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A6DB083721BAE8CC52B2CDB0FBDAEFF4 /* TCSDAL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E855EAA8BFE95BB241FFB4E18E004F /* TCSDAL-dummy.m */; };
 		A6DF6E48B4D5385134777D1BF0AEB6E1 /* KWValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B3260F3970DDDF2D8F46FBADF21288 /* KWValue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A8908F03C70FB33860754009F1AD2D94 /* KWBeIdenticalToMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7AEEC8C5467F56EDF7B69AE0449C6 /* KWBeIdenticalToMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A8B33F58F11756EF1BE170C704FC9E0E /* KWRegisterMatchersNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AFD0A4CD5B48D3F0C112142FA6A427 /* KWRegisterMatchersNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -160,6 +160,7 @@
 		AA760B19876CD521FF7EA578DA8EA934 /* KWAfterAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D16DFC460C0C3993E9391FB4F126 /* KWAfterAllNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AAC94C275C5F29CCA4F3D0ACD7C66361 /* KWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2821F275730ACDDF9A142EE4B0F5A361 /* KWBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AD01D434D8D120A3767270766AD30797 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90BB4A1DA63CE228FDF022D190E6D564 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0135C2238FCC650F9535DBA3E7E15E /* TCSDAL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9DB9A38BE803FA48AEBE922D0BCFA8 /* TCSDAL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B33A3BC7B8EF3996AF0DBB495742B22D /* KWAfterEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D83DF140CCB63169E29CEADF89DEB77F /* KWAfterEachNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B3CACA28C4C3F9A6C7317CBCEABAE0EB /* KWStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 8517E0B0B066E977FDBF3A35B84444DC /* KWStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B46F1038D3B8DC9AEF88812D328CC704 /* KWIntercept.h in Headers */ = {isa = PBXBuildFile; fileRef = B766852D50AC8CF4C7FC6E9EB3DEECD5 /* KWIntercept.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -168,7 +169,6 @@
 		BA88E88A631D6BD023521B7206CE6C25 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC68E9B4FBFDD370EAF5ACC0303C0B1 /* FMDB-dummy.m */; };
 		BB0F35C6FCCFF2A63A2C234CA3C2A3E3 /* KWMatcherFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB836E6A6D31A367329964FECE7D593 /* KWMatcherFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BC397572D9F74C49F519AA263CCD4354 /* KWBeEmptyMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FE10D1FBB3A4D79C040094869A539D /* KWBeEmptyMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF1F324B69B02FCBDAE497E91BC867C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 257014B216A5A147B30DAD351385A232 /* ReplaceMe.m */; };
 		BFC7FF4903B5266B73F616DF25C22FCD /* KWContainMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C96725242D66374F581273BD96FB0EED /* KWContainMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2588711C15B7902C40F64081B255D2D /* KWWorkarounds.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFAE960B041BDE259683A9EFD7891D7 /* KWWorkarounds.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C4010734BF5699167103A92DE29D4C2B /* KWUserDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE285C6159259C675825968989C239B /* KWUserDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -198,6 +198,7 @@
 		DCB6B307F2FF22A65CAFD340CCD84C70 /* KWDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B4A9797D72B61CAB4678171D504828 /* KWDeviceInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		DD0766EFCE6C7080AC2A4B29FCA5A641 /* KWNilMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8438C37E87A2BC8F92D012B4A066AC5 /* KWNilMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		DE74786A292DDB0A70463BD7EC85459A /* NSObject+KiwiMockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5963FA0A4834F3814482884B85D2D91C /* NSObject+KiwiMockAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC587BD268B5122B54760723742718 /* TCSDAL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 215DD6F2240373BE11F8E0F95BC32150 /* TCSDAL-dummy.m */; };
 		E01EC26AE9D28AC9111888AFD1FCFD47 /* KWSharedExampleRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 07587121722540A086918EAFC9CA1A02 /* KWSharedExampleRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D056893598F1D1CB102A450C6E89AE /* KWFutureObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE29F10D74A683D8DA12445B8A0957D /* KWFutureObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E23DA5C722203D07EDA09333FDCB1FF0 /* KWItNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3FCC35C788DC16CDFFC090E7A3022F /* KWItNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -215,6 +216,7 @@
 		F5A0569CB70F6F37A16E32EE210D0C66 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 521240040B7C5602A59DB859D0700C0A /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F640DB280BDE7DC494000F534E6201BD /* KWBeMemberOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1085F0B75BBC067E75FF4BC9409D2 /* KWBeMemberOfClassMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F694CC531BFD34BEAB6DAAA32C5A79FA /* KWAsyncVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C6F23180F62395EE24E5A3F7ED597C /* KWAsyncVerifier.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F754C7A7E219CA374E9AEB1E5EAC67D1 /* TCSDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9FE5940924F0930D7CDD96E634F33 /* TCSDAL.m */; };
 		FA02995005CF9AAF46C5E7896DF4AED9 /* KWMessageTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A064CC124A2445ED5056F1E950FB2 /* KWMessageTracker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FA1EE1170FA4CC5880321E930A4BA3E4 /* KWStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 683D07E16E574AF060C1309E17A7EE9B /* KWStringUtilities.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FCAF64234EDC227EC8024F2B45293969 /* KWHaveValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB0880F3A181424F9451040C525552 /* KWHaveValueMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -288,11 +290,14 @@
 		09C9F8CBB5A01F8FE96253CFE9D61947 /* KWBeforeAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeAllNode.m; path = Classes/Nodes/KWBeforeAllNode.m; sourceTree = "<group>"; };
 		0BE84DE5E0267E443B7FD5F6439657D6 /* KWMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcher.h; path = Classes/Core/KWMatcher.h; sourceTree = "<group>"; };
 		0C95AF6ECD3564A92CBFBFA541EEC697 /* KWChangeMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWChangeMatcher.m; path = Classes/Matchers/KWChangeMatcher.m; sourceTree = "<group>"; };
+		0C9DB9A38BE803FA48AEBE922D0BCFA8 /* TCSDAL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCSDAL-umbrella.h"; sourceTree = "<group>"; };
 		0E590E41D85AD9478C3D6F695B64442B /* KWBeEmptyMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeEmptyMatcher.m; path = Classes/Matchers/KWBeEmptyMatcher.m; sourceTree = "<group>"; };
 		0FE29F10D74A683D8DA12445B8A0957D /* KWFutureObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFutureObject.h; path = Classes/Core/KWFutureObject.h; sourceTree = "<group>"; };
 		13135F66A1B3BFE61CCC735EEB40036E /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13284687774E899EBAE1B2CA1E5ED898 /* KiwiBlockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiBlockMacros.h; path = Classes/Core/KiwiBlockMacros.h; sourceTree = "<group>"; };
+		14EFAD1D2AB3A2B1FEC1271E56CF3243 /* teacherofcomputesurname.sqlite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = teacherofcomputesurname.sqlite; sourceTree = "<group>"; };
 		166034A7B7F79A2B51AD0FDB314DD424 /* KWSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSpec.m; path = Classes/Core/KWSpec.m; sourceTree = "<group>"; };
+		17B5313324EC6144553D36236D3CC3C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17B6885BB5810A19B9495D7E3A1109E4 /* KWExampleNodeVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNodeVisitor.h; path = Classes/Core/KWExampleNodeVisitor.h; sourceTree = "<group>"; };
 		18D9DAE20C1A03F79B2916C1E247FD28 /* KWBlockRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockRaiseMatcher.h; path = Classes/Matchers/KWBlockRaiseMatcher.h; sourceTree = "<group>"; };
 		19568B392F48F3D11296CC1F1F52AD03 /* KWGenericMatchEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatchEvaluator.m; path = Classes/Matchers/KWGenericMatchEvaluator.m; sourceTree = "<group>"; };
@@ -308,9 +313,9 @@
 		1EF9A051B115A239269441372D16F686 /* KWObjCUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWObjCUtilities.m; path = Classes/Core/KWObjCUtilities.m; sourceTree = "<group>"; };
 		20721497B015F562F5CCA01A87D7EEB5 /* KWUserDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWUserDefinedMatcher.m; path = Classes/Matchers/KWUserDefinedMatcher.m; sourceTree = "<group>"; };
 		20F6E089C94C7F0B20854A9AE52E1C1C /* KWLetNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWLetNode.m; path = Classes/Nodes/KWLetNode.m; sourceTree = "<group>"; };
+		215DD6F2240373BE11F8E0F95BC32150 /* TCSDAL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCSDAL-dummy.m"; sourceTree = "<group>"; };
 		247815F8DCE6703B33499036B46115BC /* KWMatchVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchVerifier.h; path = Classes/Verifiers/KWMatchVerifier.h; sourceTree = "<group>"; };
 		255A2EE03E49789EEC3377F2A9FA9656 /* NSNumber+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+KiwiAdditions.m"; path = "Classes/Core/NSNumber+KiwiAdditions.m"; sourceTree = "<group>"; };
-		257014B216A5A147B30DAD351385A232 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		25CE74D0F2D77FC5AF011A3D44B89FE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26EC073C09B2D52789A3D3AF4613BCE2 /* KWSymbolicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSymbolicator.m; path = Classes/Core/KWSymbolicator.m; sourceTree = "<group>"; };
 		27DED1B3944D2CDC07CD859B778E2E1E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
@@ -370,14 +375,15 @@
 		5FE18FECDA862CFB99F92E059FF16347 /* KWAny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAny.h; path = Classes/Core/KWAny.h; sourceTree = "<group>"; };
 		5FFEEE71CCF89B041AC7BA1B6EC24A24 /* KWValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWValue.h; path = Classes/Core/KWValue.h; sourceTree = "<group>"; };
 		602314E6ED8F549EE33414F7D4AC9C88 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6111FCF0E0B715D7CE19B52829470C57 /* TCSDAL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCSDAL-prefix.pch"; sourceTree = "<group>"; };
 		6193B296415F4972EDD0744FF733AF2B /* KWMatchVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatchVerifier.m; path = Classes/Verifiers/KWMatchVerifier.m; sourceTree = "<group>"; };
 		636DF1BE456853723ABB9DA488D0AA66 /* KWMatcherFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcherFactory.h; path = Classes/Core/KWMatcherFactory.h; sourceTree = "<group>"; };
 		65DBC1EDB59A7BA9126F2099ED2D45E8 /* KWDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWDeviceInfo.h; path = Classes/Core/KWDeviceInfo.h; sourceTree = "<group>"; };
 		6628CC1E7AA1318427F30EDF802E4071 /* KWExistVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExistVerifier.m; path = Classes/Verifiers/KWExistVerifier.m; sourceTree = "<group>"; };
 		67B3E3EE68F58CEEE79DC69C655654CF /* KWPendingNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWPendingNode.m; path = Classes/Nodes/KWPendingNode.m; sourceTree = "<group>"; };
 		683D07E16E574AF060C1309E17A7EE9B /* KWStringUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringUtilities.m; path = Classes/Core/KWStringUtilities.m; sourceTree = "<group>"; };
+		6855CFEB50F8FDD6476FAEFEFD25445C /* TCSDAL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TCSDAL.modulemap; sourceTree = "<group>"; };
 		698A22CA6FC77F3F694FB9D7D6B83B65 /* KWInvocationCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWInvocationCapturer.h; path = Classes/Core/KWInvocationCapturer.h; sourceTree = "<group>"; };
-		69D09AD1CBC3F95AF9F491D2B48438FB /* TCSDAL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCSDAL-prefix.pch"; sourceTree = "<group>"; };
 		6A49E7E263163DADA84CFAC35F5F59B3 /* KWBlockNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockNode.h; path = Classes/Nodes/KWBlockNode.h; sourceTree = "<group>"; };
 		6CDBF2BD1CAAB69E105BA5129A5F3DF6 /* Kiwi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kiwi-dummy.m"; sourceTree = "<group>"; };
 		6D4451B81BD7E60A91F354D451AAFECD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -387,7 +393,6 @@
 		7502EAA58333A75DED913E2782A9AE96 /* KWProbePoller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWProbePoller.m; path = Classes/Core/KWProbePoller.m; sourceTree = "<group>"; };
 		77409FA57E7F4D4923D54BAF56E9A622 /* Pods-TCSDAL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCSDAL_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		77F53507E6C902E13088A461607FBE98 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		784E5A53FD3D51CA4379717C7D398B6A /* TCSDAL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TCSDAL.modulemap; sourceTree = "<group>"; };
 		78AC217A332E23F9921EB7D0E55F1920 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		79C729BDAA2145B826F14B62A4A792C5 /* KWBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlock.h; path = Classes/Core/KWBlock.h; sourceTree = "<group>"; };
 		7A34FF3563A70EC9DA1FF77EA2A6129E /* Pods-TCSDAL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCSDAL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -400,7 +405,6 @@
 		80D4DC490B58F8AAE07DB66333F81139 /* KWSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSpec.h; path = Classes/Core/KWSpec.h; sourceTree = "<group>"; };
 		82DE24677F3C64AB01C6DA7AEF28C47D /* Kiwi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kiwi.modulemap; sourceTree = "<group>"; };
 		83D8443D9C85A89628ACAAA7A4771FF0 /* Pods_TCSDAL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCSDAL_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84E855EAA8BFE95BB241FFB4E18E004F /* TCSDAL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCSDAL-dummy.m"; sourceTree = "<group>"; };
 		8517E0B0B066E977FDBF3A35B84444DC /* KWStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStub.h; path = Classes/Stubbing/KWStub.h; sourceTree = "<group>"; };
 		8523626E62A2A2AF5C15E6D17B1CA780 /* KWBeWithinMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeWithinMatcher.m; path = Classes/Matchers/KWBeWithinMatcher.m; sourceTree = "<group>"; };
 		854FB8BADD6320E64B60B75B399E29A5 /* KWItNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWItNode.m; path = Classes/Nodes/KWItNode.m; sourceTree = "<group>"; };
@@ -434,6 +438,7 @@
 		A2149D28B4CD3E54E466E2263BBC54C8 /* KWCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCallSite.h; path = Classes/Core/KWCallSite.h; sourceTree = "<group>"; };
 		A50408D39EEC8539C1B035BF748B0371 /* KWReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReporting.h; path = Classes/Core/KWReporting.h; sourceTree = "<group>"; };
 		A5C6BBC43EBC16417310AE3B2BB5B63E /* NSObject+KiwiMockAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiMockAdditions.m"; path = "Classes/Mocking/NSObject+KiwiMockAdditions.m"; sourceTree = "<group>"; };
+		A6B9FE5940924F0930D7CDD96E634F33 /* TCSDAL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TCSDAL.m; sourceTree = "<group>"; };
 		A8E9CE520FEB324A7B6141AF35B71800 /* KWSharedExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSharedExample.m; path = "Classes/Shared Examples/KWSharedExample.m"; sourceTree = "<group>"; };
 		A9EA2543F77B5CA95B86DA0A4C7E248E /* KWContainStringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContainStringMatcher.h; path = Classes/Matchers/KWContainStringMatcher.h; sourceTree = "<group>"; };
 		AA52B2C5BEE28E20F87894183395B6E8 /* KWHaveValueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveValueMatcher.h; path = Classes/Matchers/KWHaveValueMatcher.h; sourceTree = "<group>"; };
@@ -445,13 +450,12 @@
 		B2966A1C1685C93319CE950D8A99FC2D /* KWSharedExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSharedExample.h; path = "Classes/Shared Examples/KWSharedExample.h"; sourceTree = "<group>"; };
 		B2C6F23180F62395EE24E5A3F7ED597C /* KWAsyncVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAsyncVerifier.m; path = Classes/Verifiers/KWAsyncVerifier.m; sourceTree = "<group>"; };
 		B5DF2918603ACA77FD10FE81DD0ADCFD /* Pods-TCSDAL_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCSDAL_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B6AEDBBC0D29DE50588ACA8B447BCC94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B766852D50AC8CF4C7FC6E9EB3DEECD5 /* KWIntercept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWIntercept.h; path = Classes/Stubbing/KWIntercept.h; sourceTree = "<group>"; };
 		B7DE1003227BE79DB5ADAA9910301295 /* KWRespondToSelectorMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRespondToSelectorMatcher.m; path = Classes/Matchers/KWRespondToSelectorMatcher.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAA7965EC9493843B04354C00BFEDE47 /* KWInequalityMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWInequalityMatcher.h; path = Classes/Matchers/KWInequalityMatcher.h; sourceTree = "<group>"; };
 		BC8BAB076953125AD2B007E78A4AEF10 /* KWMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchers.h; path = Classes/Core/KWMatchers.h; sourceTree = "<group>"; };
-		BD23B1DADD22AFC36FC546569C3D7E74 /* TCSDAL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCSDAL.xcconfig; sourceTree = "<group>"; };
+		BFC9F8437BF1D1BCB5E5A48370CBCF31 /* TCSDAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCSDAL.h; sourceTree = "<group>"; };
 		BFFAE960B041BDE259683A9EFD7891D7 /* KWWorkarounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWWorkarounds.m; path = Classes/Core/KWWorkarounds.m; sourceTree = "<group>"; };
 		C01DE548F763B38B38BEB1E95E9C62F3 /* KWLet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWLet.h; path = Classes/Core/KWLet.h; sourceTree = "<group>"; };
 		C062FC126A62CB1CFEABD29EA1592900 /* KWExampleSuiteBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuiteBuilder.h; path = Classes/Core/KWExampleSuiteBuilder.h; sourceTree = "<group>"; };
@@ -490,7 +494,6 @@
 		DA6A60440995FFB73401C30FE1BE6510 /* KWBeIdenticalToMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeIdenticalToMatcher.h; path = Classes/Matchers/KWBeIdenticalToMatcher.h; sourceTree = "<group>"; };
 		DABE40CED78C0F7FB863FFC8DB2ABEC1 /* KWNotificationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNotificationMatcher.m; path = Classes/Matchers/KWNotificationMatcher.m; sourceTree = "<group>"; };
 		DCEBA085DF1887D705B523369341991B /* KWExampleSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuite.h; path = Classes/Core/KWExampleSuite.h; sourceTree = "<group>"; };
-		DDA9236C4CC61102AABE02F9B4463DB0 /* TCSDAL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCSDAL-umbrella.h"; sourceTree = "<group>"; };
 		DDBD756DE9C4A7C49301557C940B4F96 /* KWFutureObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFutureObject.m; path = Classes/Core/KWFutureObject.m; sourceTree = "<group>"; };
 		DE9BF721A55F1C00CE346EADF1D5AF4C /* KWMessageTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessageTracker.h; path = Classes/Core/KWMessageTracker.h; sourceTree = "<group>"; };
 		DF979B525985812DC772BB784FFBE679 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -513,6 +516,7 @@
 		F74C6BFBF72C14B456B734856B474751 /* KWMessagePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessagePattern.m; path = Classes/Core/KWMessagePattern.m; sourceTree = "<group>"; };
 		F7B3260F3970DDDF2D8F46FBADF21288 /* KWValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWValue.m; path = Classes/Core/KWValue.m; sourceTree = "<group>"; };
 		F8045FC644C77EE9274228893A752117 /* NSInvocation+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+KiwiAdditions.h"; path = "Classes/Core/NSInvocation+KiwiAdditions.h"; sourceTree = "<group>"; };
+		FA0597F3054B45D76643FE442EAA5C0C /* TCSDAL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCSDAL.xcconfig; sourceTree = "<group>"; };
 		FB87536D431C7E35349B72FB1F707920 /* NSObject+KiwiVerifierAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiVerifierAdditions.h"; path = "Classes/Core/NSObject+KiwiVerifierAdditions.h"; sourceTree = "<group>"; };
 		FC6B695AFA525C94AD8123A6CB4B5DDF /* NSObject+KiwiSpyAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiSpyAdditions.m"; path = "Classes/Core/NSObject+KiwiSpyAdditions.m"; sourceTree = "<group>"; };
 		FC9405015A2B9E6DB3F65FD6D3698F9F /* KWBeforeAllNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeforeAllNode.h; path = Classes/Nodes/KWBeforeAllNode.h; sourceTree = "<group>"; };
@@ -625,6 +629,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		1EDB5C587F35E65909E3444A53A6B7BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C235D683977E956F50A36789BD48F592 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		1F7E6FEED626C7EFE4C92A172529B502 /* Pods-TCSDAL_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -643,6 +655,17 @@
 			path = "Target Support Files/Pods-TCSDAL_Example";
 			sourceTree = "<group>";
 		};
+		3022EF01B58A6E7B45D16A7E87006F5B /* TCSDAL */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4E51623E689BD00060A711FAC1CD8 /* Pod */,
+				1EDB5C587F35E65909E3444A53A6B7BF /* Resources */,
+				A1143E16166F4BD970431F0C162AD18D /* Support Files */,
+			);
+			name = TCSDAL;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		4448D9698F6D17379265235F31D8D9D5 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,18 +675,29 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
-		4CA0F266E9F20AF2E2FAD93DFFC589C6 /* Support Files */ = {
+		51941F67207AD19A9B93ED5E0F045D50 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B6AEDBBC0D29DE50588ACA8B447BCC94 /* Info.plist */,
-				784E5A53FD3D51CA4379717C7D398B6A /* TCSDAL.modulemap */,
-				BD23B1DADD22AFC36FC546569C3D7E74 /* TCSDAL.xcconfig */,
-				84E855EAA8BFE95BB241FFB4E18E004F /* TCSDAL-dummy.m */,
-				69D09AD1CBC3F95AF9F491D2B48438FB /* TCSDAL-prefix.pch */,
-				DDA9236C4CC61102AABE02F9B4463DB0 /* TCSDAL-umbrella.h */,
+				14EFAD1D2AB3A2B1FEC1271E56CF3243 /* teacherofcomputesurname.sqlite */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TCSDAL";
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5F92CAE87BAD2113B0A3ADA4B75BF0D5 /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				BFC9F8437BF1D1BCB5E5A48370CBCF31 /* TCSDAL.h */,
+				A6B9FE5940924F0930D7CDD96E634F33 /* TCSDAL.m */,
+			);
+			path = DAL;
+			sourceTree = "<group>";
+		};
+		659FA7C6BA80DADC50DA6324F37719E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3022EF01B58A6E7B45D16A7E87006F5B /* TCSDAL */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		65C5B9066C527B9DE0487C80C79F065E /* Products */ = {
@@ -679,27 +713,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		753CE396EC72261F3497FEF8A0C1BE80 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AFDAE8D1DA49C029DAE82802BD685B81 /* TCSDAL */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7BC20033F4F9085E9833C3E85DF46735 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				257014B216A5A147B30DAD351385A232 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				753CE396EC72261F3497FEF8A0C1BE80 /* Development Pods */,
+				659FA7C6BA80DADC50DA6324F37719E4 /* Development Pods */,
 				08456B4EA4455DE9A7F047C084FA7325 /* Frameworks */,
 				DFDE7BDB9E75726889A28D6CF1F7D0DF /* Pods */,
 				65C5B9066C527B9DE0487C80C79F065E /* Products */,
@@ -926,14 +944,18 @@
 			path = "Target Support Files/Pods-TCSDAL_Tests";
 			sourceTree = "<group>";
 		};
-		AFDAE8D1DA49C029DAE82802BD685B81 /* TCSDAL */ = {
+		A1143E16166F4BD970431F0C162AD18D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC1751A53B93BE456FF412C75AC12A89 /* Pod */,
-				4CA0F266E9F20AF2E2FAD93DFFC589C6 /* Support Files */,
+				17B5313324EC6144553D36236D3CC3C3 /* Info.plist */,
+				6855CFEB50F8FDD6476FAEFEFD25445C /* TCSDAL.modulemap */,
+				FA0597F3054B45D76643FE442EAA5C0C /* TCSDAL.xcconfig */,
+				215DD6F2240373BE11F8E0F95BC32150 /* TCSDAL-dummy.m */,
+				6111FCF0E0B715D7CE19B52829470C57 /* TCSDAL-prefix.pch */,
+				0C9DB9A38BE803FA48AEBE922D0BCFA8 /* TCSDAL-umbrella.h */,
 			);
-			name = TCSDAL;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TCSDAL";
 			sourceTree = "<group>";
 		};
 		C0FBCC5263CDA3CDE8271A5FB3E5752E /* Support Files */ = {
@@ -950,10 +972,26 @@
 			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		CC1751A53B93BE456FF412C75AC12A89 /* Pod */ = {
+		C235D683977E956F50A36789BD48F592 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7BC20033F4F9085E9833C3E85DF46735 /* Classes */,
+				51941F67207AD19A9B93ED5E0F045D50 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D4E5FF1F52BB263EE5D5E503FB10749D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F92CAE87BAD2113B0A3ADA4B75BF0D5 /* DAL */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DDE4E51623E689BD00060A711FAC1CD8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5FF1F52BB263EE5D5E503FB10749D /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -970,19 +1008,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		35F853D3302830DDAE77AC75F2DCB260 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0135C2238FCC650F9535DBA3E7E15E /* TCSDAL-umbrella.h in Headers */,
+				36E92BFEB8BDF6F3F1551FCCE6F40BFE /* TCSDAL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D6BE714F20DBE0EA5A2BDCF35BEA6C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				17073840441D6357E9A7AC89839BC4D2 /* Pods-TCSDAL_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DE8E62C753C2E0F9F2BC12DC74FEC32 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				858B49D0C1DAA3A5EDD025C064DFF27B /* TCSDAL-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1158,7 +1197,7 @@
 			buildPhases = (
 				ED9122DB775C9FAC379AAA3687E344AA /* Sources */,
 				289F24659F17B4B6945DFAB7FBCA4F40 /* Frameworks */,
-				926EB3531078544A1F12194A76D08670 /* Resources */,
+				2536F7C8A48C3F036DE5019E6BC92BD5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1173,10 +1212,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C8A94D2D83C37DDEFF3901E737FC459 /* Build configuration list for PBXNativeTarget "TCSDAL" */;
 			buildPhases = (
-				9FF639DC97FA4B256F4C446CC4F416D8 /* Sources */,
+				510D15699344710BA6C3D9D4E4DE1FD6 /* Sources */,
 				D04198DAA97D777317F0B209AA2F5F88 /* Frameworks */,
 				F578E759A4CA0061FCEEAC45E3BE7B4B /* Resources */,
-				7DE8E62C753C2E0F9F2BC12DC74FEC32 /* Headers */,
+				35F853D3302830DDAE77AC75F2DCB260 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1260,10 +1299,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		926EB3531078544A1F12194A76D08670 /* Resources */ = {
+		2536F7C8A48C3F036DE5019E6BC92BD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83314DC09A1C10D386518A927EB9BFD4 /* teacherofcomputesurname.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1283,6 +1323,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				106EBAA7FCB55E40A3BFEB60B494E093 /* Pods-TCSDAL_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510D15699344710BA6C3D9D4E4DE1FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC587BD268B5122B54760723742718 /* TCSDAL-dummy.m in Sources */,
+				F754C7A7E219CA374E9AEB1E5EAC67D1 /* TCSDAL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1392,15 +1441,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FF639DC97FA4B256F4C446CC4F416D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF1F324B69B02FCBDAE497E91BC867C9 /* ReplaceMe.m in Sources */,
-				A6DB083721BAE8CC52B2CDB0FBDAEFF4 /* TCSDAL-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BC327D6EA229E8572BEE42316F52EB75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1464,9 +1504,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		019AC18CF0C2E7342CED1869089B4166 /* Debug */ = {
+		03CFDE34AF2A7E09173D2C333469667A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8257A2252452BE8AD0F2A416AA8A2B2 /* Pods-TCSDAL_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8A6DA4B3ADB811A8CF0464A64399291A /* Pods-TCSDAL_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1475,26 +1515,26 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TCSDAL_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCSDAL_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TCSDAL_Tests/Pods-TCSDAL_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TCSDAL_Tests;
+				PRODUCT_NAME = Pods_TCSDAL_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		052A17875CB827423D627183396CEB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1521,14 +1561,194 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		15C5941C239FCC296298A3B0E4FAC59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F546BB7829794E09E03B11E56BA5DAE /* Kiwi.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kiwi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kiwi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3172C02F7C0E30F50FB6AA40AEA3B5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D76B9E33EA83E09A77527BC40C0DCF /* Pods-TCSDAL_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TCSDAL_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCSDAL_Tests/Pods-TCSDAL_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TCSDAL_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		479D0CC28992AC376A003AC098EEAF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0597F3054B45D76643FE442EAA5C0C /* TCSDAL.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TCSDAL/TCSDAL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCSDAL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCSDAL/TCSDAL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TCSDAL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73AD7AC1B8009619D4F079ADC2CED018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC4638C6F1212E818174F41F47C40E8 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76E906FD246FC213198048248DA0CB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0597F3054B45D76643FE442EAA5C0C /* TCSDAL.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TCSDAL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		89C7F8C2F2498E33ADEDC6637FB80BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0597F3054B45D76643FE442EAA5C0C /* TCSDAL.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TCSDAL/TCSDAL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCSDAL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCSDAL/TCSDAL.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TCSDAL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D2135C62593715CD64D659340B02976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77409FA57E7F4D4923D54BAF56E9A622 /* Pods-TCSDAL_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TCSDAL_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TCSDAL_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1560,16 +1780,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		13B1D87D11FBE59F9B8BF7327A308C38 /* Release */ = {
+		B9C8996900F9B9E7696E854220DD749B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD23B1DADD22AFC36FC546569C3D7E74 /* TCSDAL.xcconfig */;
+			baseConfigurationReference = CAC4638C6F1212E818174F41F47C40E8 /* FMDB.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1578,14 +1798,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TCSDAL/TCSDAL-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TCSDAL/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TCSDAL/TCSDAL.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TCSDAL;
+				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1594,37 +1814,7 @@
 			};
 			name = Release;
 		};
-		140D12E5D3E3565E287DA44B3FCDE8D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A6DA4B3ADB811A8CF0464A64399291A /* Pods-TCSDAL_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TCSDAL_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TCSDAL_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		20DE0216107B4430DB33F4C9BD211822 /* Release */ = {
+		BD177C3DD53851D69047E3C36736BFDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F546BB7829794E09E03B11E56BA5DAE /* Kiwi.xcconfig */;
 			buildSettings = {
@@ -1638,10 +1828,10 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kiwi/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Kiwi;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1649,23 +1839,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		76E906FD246FC213198048248DA0CB2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD23B1DADD22AFC36FC546569C3D7E74 /* TCSDAL.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TCSDAL;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Debug;
 		};
-		99CCB5688BDAB2B4B3BF1A3B3F4DC133 /* Release */ = {
+		E31BE862353FBD69465A4AF37165708A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4D76B9E33EA83E09A77527BC40C0DCF /* Pods-TCSDAL_Tests.release.xcconfig */;
+			baseConfigurationReference = E8257A2252452BE8AD0F2A416AA8A2B2 /* Pods-TCSDAL_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1676,11 +1854,11 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TCSDAL_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TCSDAL_Tests/Pods-TCSDAL_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1691,122 +1869,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		A6D3CE314BD099464A4E22274B3C5030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77409FA57E7F4D4923D54BAF56E9A622 /* Pods-TCSDAL_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TCSDAL_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TCSDAL_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B7863E0322E855CD3B406626B9439E01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAC4638C6F1212E818174F41F47C40E8 /* FMDB.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D5BD8B04213319F017CE92E4C4FF5BCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD23B1DADD22AFC36FC546569C3D7E74 /* TCSDAL.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TCSDAL/TCSDAL-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TCSDAL/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TCSDAL/TCSDAL.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TCSDAL;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DCB81BA0B7AB92ABC1C9216DB4AE2CE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAC4638C6F1212E818174F41F47C40E8 /* FMDB.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Debug;
 		};
 		FE73DE37EB7D60356AE8F310CE0A4F6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD23B1DADD22AFC36FC546569C3D7E74 /* TCSDAL.xcconfig */;
+			baseConfigurationReference = FA0597F3054B45D76643FE442EAA5C0C /* TCSDAL.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = TCSDAL;
@@ -1816,41 +1883,14 @@
 			};
 			name = Release;
 		};
-		FFD4450C4484BF62D3FF074ECCF87FA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F546BB7829794E09E03B11E56BA5DAE /* Kiwi.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kiwi/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Kiwi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1858,8 +1898,8 @@
 		3C58DE284A3AD2B5351DEBD7E8921D07 /* Build configuration list for PBXNativeTarget "Kiwi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFD4450C4484BF62D3FF074ECCF87FA3 /* Debug */,
-				20DE0216107B4430DB33F4C9BD211822 /* Release */,
+				BD177C3DD53851D69047E3C36736BFDD /* Debug */,
+				15C5941C239FCC296298A3B0E4FAC59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1876,8 +1916,8 @@
 		6C8A94D2D83C37DDEFF3901E737FC459 /* Build configuration list for PBXNativeTarget "TCSDAL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5BD8B04213319F017CE92E4C4FF5BCF /* Debug */,
-				13B1D87D11FBE59F9B8BF7327A308C38 /* Release */,
+				89C7F8C2F2498E33ADEDC6637FB80BD5 /* Debug */,
+				479D0CC28992AC376A003AC098EEAF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1885,8 +1925,8 @@
 		91DDD62A946B88D232846943C0894F69 /* Build configuration list for PBXNativeTarget "Pods-TCSDAL_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				019AC18CF0C2E7342CED1869089B4166 /* Debug */,
-				99CCB5688BDAB2B4B3BF1A3B3F4DC133 /* Release */,
+				E31BE862353FBD69465A4AF37165708A /* Debug */,
+				3172C02F7C0E30F50FB6AA40AEA3B5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1894,8 +1934,8 @@
 		E130BB4A68655453C9FDC5692FA44094 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCB81BA0B7AB92ABC1C9216DB4AE2CE0 /* Debug */,
-				B7863E0322E855CD3B406626B9439E01 /* Release */,
+				73AD7AC1B8009619D4F079ADC2CED018 /* Debug */,
+				B9C8996900F9B9E7696E854220DD749B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1903,8 +1943,8 @@
 		FBEEA7D277CFA5062A487AEF4DE3280F /* Build configuration list for PBXNativeTarget "Pods-TCSDAL_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D3CE314BD099464A4E22274B3C5030 /* Debug */,
-				140D12E5D3E3565E287DA44B3FCDE8D2 /* Release */,
+				8D2135C62593715CD64D659340B02976 /* Debug */,
+				03CFDE34AF2A7E09173D2C333469667A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

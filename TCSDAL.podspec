@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "TCSDAL"
-  s.version          = "0.2.0"
+  s.version          = "0.4.0"
   s.summary          = "TCSDAL数据层."
   s.description      = <<-DESC
-                        TCSDAL数据层:2015-11-14
+                        完成了一个多行数据查询功能
                        DESC
   s.homepage         = "https://github.com/spbreak/TCSDAL"
   s.license          = 'MIT'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'TCSDAL' => ['Pod/Assets/*.png']
+    'TCSDAL' => ['Pod/Assets/*']
   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

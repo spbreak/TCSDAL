@@ -20,9 +20,9 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		928D416CD0B3EF919E783347 /* Pods_TCSDAL_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21330D78B59CEF650BF3E8B6 /* Pods_TCSDAL_Tests.framework */; };
+		F0A90F4D1BF825A30004829D /* SQLiteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F07ED1721BF6E77E00BEE3A0 /* SQLiteSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 		27D8A3FC461279CC9653FAF3 /* Pods-TCSDAL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Tests/Pods-TCSDAL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30C6A7E26FC7D29B6CA6A28B /* Pods_TCSDAL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCSDAL_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B95BF533F5D8E50A673219 /* Pods-TCSDAL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Tests/Pods-TCSDAL_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* TCSDAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TCSDAL.app; path = TCSDAL_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* TCSDAL_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCSDAL_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,16 +55,17 @@
 		6003F5A5195388D20070C39A /* TCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* TCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = TCSDAL_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* TCSDAL_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCSDAL_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		70FC03E3AC4B6A37B40B4E5A /* Pods-TCSDAL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BEC91AB095CEC254EDAA71AE /* Pods-TCSDAL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6D3031E026369A5F46C4243 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F07ED16D1BF6E67500BEE3A0 /* SelectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSpec.m; sourceTree = "<group>"; };
+		F07ED1721BF6E77E00BEE3A0 /* SQLiteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +109,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* TCSDAL.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* TCSDAL_Example.app */,
+				6003F5AE195388D20070C39A /* TCSDAL_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,7 +157,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				F07ED16D1BF6E67500BEE3A0 /* SelectSpec.m */,
+				F07ED1721BF6E77E00BEE3A0 /* SQLiteSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -213,7 +215,7 @@
 			);
 			name = TCSDAL_Example;
 			productName = TCSDAL;
-			productReference = 6003F58A195388D20070C39A /* TCSDAL.app */;
+			productReference = 6003F58A195388D20070C39A /* TCSDAL_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* TCSDAL_Tests */ = {
@@ -234,7 +236,7 @@
 			);
 			name = TCSDAL_Tests;
 			productName = TCSDALTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* TCSDAL_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -400,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				F0A90F4D1BF825A30004829D /* SQLiteSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +517,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCSDAL/TCSDAL-Prefix.pch";
 				INFOPLIST_FILE = "TCSDAL/TCSDAL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -530,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCSDAL/TCSDAL-Prefix.pch";
 				INFOPLIST_FILE = "TCSDAL/TCSDAL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -553,6 +557,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCSDAL_Example.app/TCSDAL_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -572,6 +577,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCSDAL_Example.app/TCSDAL_Example";
 				WRAPPER_EXTENSION = xctest;
