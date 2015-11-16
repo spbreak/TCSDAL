@@ -82,14 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-TCSDAL_Tests/FMDB.framework"
-  install_framework "Pods-TCSDAL_Tests/TCSDAL.framework"
-  install_framework "Pods-TCSDAL_Tests/Kiwi.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-TCSDAL_Tests/FMDB.framework"
-  install_framework "Pods-TCSDAL_Tests/TCSDAL.framework"
-  install_framework "Pods-TCSDAL_Tests/Kiwi.framework"
-fi

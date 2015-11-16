@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46DB8CA5D5F028C83F2AEFB3 /* Pods_TCSDAL_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C6A7E26FC7D29B6CA6A28B /* Pods_TCSDAL_Example.framework */; };
+		44857E733F4181C5714DAA09 /* libPods-TCSDAL_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B0BFF7F1ABB6B78903AED9 /* libPods-TCSDAL_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		928D416CD0B3EF919E783347 /* Pods_TCSDAL_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21330D78B59CEF650BF3E8B6 /* Pods_TCSDAL_Tests.framework */; };
-		F0E5EE1A1BF8409C005975FE /* SelectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F07ED16D1BF6E67500BEE3A0 /* SelectSpec.m */; };
+		B3123BF10A1829D339FE3342 /* libPods-TCSDAL_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43D2B476206E6DF38E7F800 /* libPods-TCSDAL_Example.a */; };
+		F0C81F7A1BF9BC69001BAE21 /* SelectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F07ED16D1BF6E67500BEE3A0 /* SelectSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,7 @@
 /* Begin PBXFileReference section */
 		0AAC75188F6C7EF3F1E8B189 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		14F7B863A58C831883B52E73 /* TCSDAL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCSDAL.podspec; path = ../TCSDAL.podspec; sourceTree = "<group>"; };
-		21330D78B59CEF650BF3E8B6 /* Pods_TCSDAL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCSDAL_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D8A3FC461279CC9653FAF3 /* Pods-TCSDAL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Tests/Pods-TCSDAL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30C6A7E26FC7D29B6CA6A28B /* Pods_TCSDAL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCSDAL_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B95BF533F5D8E50A673219 /* Pods-TCSDAL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Tests/Pods-TCSDAL_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TCSDAL_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCSDAL_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,9 +59,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		70FC03E3AC4B6A37B40B4E5A /* Pods-TCSDAL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		72B0BFF7F1ABB6B78903AED9 /* libPods-TCSDAL_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCSDAL_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BEC91AB095CEC254EDAA71AE /* Pods-TCSDAL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCSDAL_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCSDAL_Example/Pods-TCSDAL_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6D3031E026369A5F46C4243 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E43D2B476206E6DF38E7F800 /* libPods-TCSDAL_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TCSDAL_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07ED16D1BF6E67500BEE3A0 /* SelectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSpec.m; sourceTree = "<group>"; };
 		F07ED1721BF6E77E00BEE3A0 /* SQLiteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +76,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				46DB8CA5D5F028C83F2AEFB3 /* Pods_TCSDAL_Example.framework in Frameworks */,
+				B3123BF10A1829D339FE3342 /* libPods-TCSDAL_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				928D416CD0B3EF919E783347 /* Pods_TCSDAL_Tests.framework in Frameworks */,
+				44857E733F4181C5714DAA09 /* libPods-TCSDAL_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,8 +122,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				30C6A7E26FC7D29B6CA6A28B /* Pods_TCSDAL_Example.framework */,
-				21330D78B59CEF650BF3E8B6 /* Pods_TCSDAL_Tests.framework */,
+				E43D2B476206E6DF38E7F800 /* libPods-TCSDAL_Example.a */,
+				72B0BFF7F1ABB6B78903AED9 /* libPods-TCSDAL_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -402,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E5EE1A1BF8409C005975FE /* SelectSpec.m in Sources */,
+				F0C81F7A1BF9BC69001BAE21 /* SelectSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

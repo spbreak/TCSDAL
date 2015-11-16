@@ -1,6 +1,0 @@
-framework module TCSDAL {
-  umbrella header "TCSDAL-umbrella.h"
-
-  export *
-  module * { export * }
-}
