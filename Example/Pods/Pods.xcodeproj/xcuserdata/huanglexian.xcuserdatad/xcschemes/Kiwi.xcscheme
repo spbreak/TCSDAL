@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '119142024070328FFF0CA060'
+               BlueprintIdentifier = '7437195D13A55867DEB370C9'
                BlueprintName = 'Kiwi'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libKiwi.a'>

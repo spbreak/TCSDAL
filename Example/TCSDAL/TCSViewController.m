@@ -24,7 +24,8 @@
 //    NSString *strPath=[[bundle resourcePath]stringByAppendingPathComponent:@"teacherofcomputesurname.sqlite"];
 //    NSLog(@"path:%@",str);
 //    NSLog(@"strPath:%@",strPath);
-//    NSLog(@"%@",[[NSBundle mainBundle]resourcePath]);
+    NSArray *arr=[TCSDAL getManyOfTable:@"name" withWhere:nil withArrField:@[@"name"]];
+    NSLog(@"%@",[[NSBundle mainBundle]resourcePath]);
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,11 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = "TCSDAL"
-  s.version          = "0.6.0"
+  s.version          = "0.7.0"
   s.summary          = "TCSDAL数据层."
   s.description      = <<-DESC
                         0.4.0:完成了一个多行数据查询功能
                         0.5.0:完成了一个单行数据查询功能
                         0.6.0:把.framework修改成.a
+                        0.7.0:修改数据库获取路径
                        DESC
   s.homepage         = "https://github.com/spbreak/TCSDAL"
   s.license          = 'MIT'
